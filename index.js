@@ -1,6 +1,6 @@
 console.log('anything');
 
-if (!"prop" in myObj) {  // Noncompliant;  "in" operator is checking property "false"
+if (!"prop1" in myObj) {  // Noncompliant;  "in" operator is checking property "false"
   doTheThing();  // this block will be never executed
 }
 
